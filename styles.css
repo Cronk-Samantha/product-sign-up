@@ -7,7 +7,7 @@
 
 main {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 100%;
 }
@@ -50,4 +50,8 @@ main {
 
 .image-link {
     background: transparent;
+}
+
+.page-right {
+    width: 70%;
 }
