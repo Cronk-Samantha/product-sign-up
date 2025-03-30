@@ -80,3 +80,27 @@ main {
 .subheader.disclaimer {
     font-size: 1rem;
 }
+
+/* FORM STYLING */
+.form-legend {
+    float: left;
+    font-size: 1rem;
+    color: #7f8c4e;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
